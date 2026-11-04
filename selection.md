@@ -1,4 +1,4 @@
-\# ReMeal privacy policy research notes
+ReMeal privacy policy research notes
 
 
 
@@ -6,7 +6,7 @@ These notes document what ReMeal's public Privacy Notice says and identify quest
 
 
 
-1\. \*\*Potentially excessive data collection (Sections 1A–1C)\*\*
+1\. Potentially excessive data collection (Sections 1A–1C)
 
 
 
@@ -14,13 +14,13 @@ These notes document what ReMeal's public Privacy Notice says and identify quest
 
 
 
-&#x20;  \*\*Ethical concern\*\* 
+&#x20;  Ethical concern
 
 Customers should be able to tell which data ReMeal needs to process an order and which data it requests for other purposes.
 
 
 
-2\. \*\*Unclear separation between service consent and advertising consent (Introduction and Sections 2F, 6, and 8)\*\*
+2\. Unclear separation between service consent and advertising consent (Introduction and Sections 2F, 6, and 8)
 
 
 
@@ -28,13 +28,13 @@ Customers should be able to tell which data ReMeal needs to process an order and
 
 
 
-&#x20;  \*\*Ethical concern\*\* 
+&#x20;  Ethical concern
 
 Customers may find it difficult to make a separate, informed choice about personalised advertising when registering to buy food.
 
 
 
-3\. \*\*Broad third-party sharing and profiling (Sections 2, 3C, and 6A)\*\*
+3\. Broad third-party sharing and profiling (Sections 2, 3C, and 6A)
 
 
 
@@ -42,11 +42,13 @@ Customers may find it difficult to make a separate, informed choice about person
 
 
 
-&#x20;  \*\*Ethical concern.\*\* Customers may struggle to tell which information could go to each recipient and for what purpose.
+&#x20;  Ethical concern.
+
+Customers may struggle to tell which information could go to each recipient and for what purpose.
 
 
 
-4\. \*\*Unclear retention periods and deletion outcomes (Sections 4 and 8)\*\*
+4\. Unclear retention periods and deletion outcomes (Sections 4 and 8)
 
 
 
@@ -54,11 +56,13 @@ Customers may find it difficult to make a separate, informed choice about person
 
 
 
-&#x20;  \*\*Ethical concern.\*\* A customer requesting account deletion may have difficulty knowing what will be erased, what will remain, and for how long.
+&#x20;  Ethical concern. 
+
+A customer requesting account deletion may have difficulty knowing what will be erased, what will remain, and for how long.
 
 
 
-5\. \*\*Consent to policy changes through continued use (Section 9)\*\*
+5\. Consent to policy changes through continued use (Section 9)
 
 
 
@@ -66,11 +70,13 @@ Customers may find it difficult to make a separate, informed choice about person
 
 
 
-&#x20;  \*\*Ethical concern.\*\* Users may continue using the app without realising that the purposes or recipients of their data have changed.
+&#x20;  Ethical concern
+
+Users may continue using the app without realising that the purposes or recipients of their data have changed.
 
 
 
-6\. \*\*Unclear guardian consent for minors (Section 1F)\*\*
+6\. Unclear guardian consent for minors (Section 1F)
 
 
 
@@ -78,11 +84,13 @@ Customers may find it difficult to make a separate, informed choice about person
 
 
 
-&#x20;  \*\*Ethical concern.\*\* The notice leaves open how a guardian learns of the disclosure and gives informed agreement.
+&#x20;  Ethical concern
+
+The notice leaves open how a guardian learns of the disclosure and gives informed agreement.
 
 
 
-7\. \*\*Handling of sensitive health information (Section 1D)\*\*
+7\. Handling of sensitive health information (Section 1D)
 
 
 
@@ -90,11 +98,13 @@ Customers may find it difficult to make a separate, informed choice about person
 
 
 
-&#x20;  \*\*Ethical concern.\*\* A customer disclosing an allergy to resolve a food issue may be unsure how that information will be used or retained.
+&#x20;  Ethical concern
+
+A customer disclosing an allergy to resolve a food issue may be unsure how that information will be used or retained.
 
 
 
-8\. \*\*Personal data about other people (Section 1E)\*\*
+8\. Personal data about other people (Section 1E)
 
 
 
@@ -102,7 +112,9 @@ Customers may find it difficult to make a separate, informed choice about person
 
 
 
-&#x20;  \*\*Ethical concern.\*\* The person whose details are provided may have limited visibility into how those details will be used.
+&#x20;  Ethical concern
+
+The person whose details are provided may have limited visibility into how those details will be used.
 
 
 
@@ -110,25 +122,25 @@ The notice also describes marketing opt-outs, limits on employee access, and a p
 
 
 
-\## Ethics and literature references
+Ethics and literature references
 
 
 
-\- \*\*ACM/IEEE-CS Software Engineering Code, clauses 3.12 and 3.13.\*\* 
+\- ACM/IEEE-CS Software Engineering Code, clauses 3.12 and 3.13
 
-Use 3.12 to assess whether the design and its documentation respect the privacy of affected people. 
+Use 3.12 to assess whether the design and its documentation respect the privacy of affected people.
 
-Use 3.13 to assess whether the purposes for collecting, sharing, and reusing data are properly authorised. 
+Use 3.13 to assess whether the purposes for collecting, sharing, and reusing data are properly authorised.
 
 Clause 1.06 is relevant when comparing public privacy statements with app behaviour. \[2]
 
-\- \*\*Contextual integrity.\*\* 
+\- Contextual integrity.
 
 Nissenbaum's framework asks whether a flow of information is appropriate for the situation in which it occurs. Applied here, it helps the group assess whether sharing data to fulfil a food order and sharing it for advertising fit users’ expectations in each context. \[3]
 
 
 
-\## References
+References
 
 
 
