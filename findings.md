@@ -1,25 +1,18 @@
-## ReMeal Issues
+## Findings
+Five issues were identified. In each, ReMeal's terms move risk from the platform to the user, while the user has little information with which to manage it.
 
-# Allergens
-Not obligated to provide ingredient or allergen information, and does not guarantee that good sold by vendors are free of allergens
-Users cannot check meals for ingredients, therefore allergens and quality of ingredients used cannot be known
-Since contents are not known until pickup, allergen information cannot be known in advance (mystery bags feature)
 
-# Refunds
-No refund will be issued if you decide to cancel the order after it is accepted by the vendor. You forfeit the collection of your cancelled order
-This puts the user at risk of not receiving their order from the vendor and still losing funds
-Not liable for actions or omissions of the vendor nor you in regard to the provision of goods
+# Allergens and ingredient information
+Vendor listings had no field for ingredients or allergens, and the contents of mystery bags are only revealed when the user collects them. ReMeal's Terms state that it is "not obligated to provide ingredient information or allergen information" and that it does not guarantee food sold by vendors is free of allergens. Instead, users with allergies or dietary restrictions are told to contact the vendor themselves before ordering (ReMeal, 2024a, §5.3). In practice this is difficult, because surplus food is usually listed late in the day and sells quickly, and for mystery bags even the vendor may not know the contents until the bag is packed. Users therefore pay for food without knowing what it contains, which prevents informed consent. The consequences can be serious: an allergic reaction can be life-threatening, and Muslim users cannot confirm whether a mystery bag contains non-halal items. Users with food allergies, intolerances or religious dietary requirements face the greatest risk.
 
-# Quality of Goods
-Vendors are solely responsible for preparation, condition and quality of goods
-There is no filter by the app to verify the conditions and quality of the food before becoming a vendor. There is no accountability for the quality of food prepared, to ensure users get food that is not harmful.
-Users are told to check during pickup, however ingredients, quality and allergens cannot be known just then
-Does not guarantee the accuracy or completeness of the information displayed on the vendors listing on the platform
+# Refunds and cancellation
+The app offered no way to cancel an order directly; users must contact support. A refund is only possible before the vendor accepts the order, after which the user loses both the payment and the food (ReMeal, 2024a, §5.7–5.8). ReMeal may also refuse a refund if users cannot provide supporting documents. Orders are held for only 20 minutes after the collection time, users must inspect food before leaving the premises, and ReMeal accepts no liability for vendor failures (§7.2, §9.3). Because vendors can accept orders almost instantly, a user who arrives to find food sold out or a shop closed may still be refused a refund. Users therefore bear the cost of failures they did not cause.
 
-# Waste
-vendors pay a commission per bag sold. It needs to sell more bags to maximise earnings, whether or not food is eaten. So its profits grow with the amount of surplus, and not with how much waste is prevented, leading to more waste
-People with strong preferences / allergens will throw away what they don’t want, since contents of bag are only known after pickup (for mystery bags)
+# Food quality and vendor accountability
+Vendor listings showed photos and prices but no hygiene rating, food premises licence or food safety certification. ReMeal's seller page shows that to join, a business only needs to be listed on Google Maps and submit its business details for verification (ReMeal, n.d.). There is no published requirement for a food handling licence, food-handler training or hygiene inspection. At the same time, the Terms make vendors solely responsible for the preparation, condition and quality of food, and state that ReMeal does not guarantee the accuracy of listings, including menu information and photos (ReMeal, 2024a, §9.3, §10). ReMeal therefore confirms that a business exists but not that its food is safe. This matters more for surplus food than ordinary food, because it is near the end of its shelf life and may have been on display all day. Users are told to inspect food at pickup, but spoilage and contamination are often impossible to see. ReMeal earns a fee from every sale while disclaiming responsibility for what is sold, so the party that profits from the transaction carries none of its risk. Users therefore bear the risk of obtaining food poisoning or foodborne diseases which would cause them illness.
 
-# Data Protection
-Takes location, identifiers, contact info, purchases and usage data, but data is not encrypted when shared
-Location and purchase history can reveal routines, income level and dietary of religious habits
+# Waste incentives
+ReMeal charges vendors no signup or monthly fee, only a fee on each sale (ReMeal, n.d.). This means ReMeal's income grows with the amount of surplus food sold, not with the amount of waste actually prevented. The model creates two risks. First, vendors who know their surplus will always sell at a discount have less reason to plan production carefully, so the app may encourage overproduction rather than reduce it. Second, mystery bags can shift waste from the shop into the home. A user who receives items they do not like, or cannot eat because of an allergy or dietary requirement, is likely to throw them away, yet the bag is still counted as food saved. Sustainability is the main reason ReMeal gives users and vendors for using the app, so if its business model can increase total waste, its environmental claims risk misleading the people who rely on them. The environment, households who end up discarding food, and users who choose the app to reduce waste are all affected.
+
+# Data protection
+ReMeal's Google Play data-safety label indicates that user data is not encrypted in transit, meaning information sent between a user's phone and ReMeal's servers could be intercepted, for example on public Wi-Fi. This exposes a large amount of personal data, as the app requires location access and collects names, phone numbers, order history and device identifiers (ReMeal, 2024b, §1). Rather than protecting this data, the Privacy Notice states that any transmission "remains at your own risk" (§7). Encryption in transit is a basic, low-cost safeguard, and Malaysia's Personal Data Protection Act 2010 requires organisations to take practical steps to protect personal data (Personal Data Protection Act 2010, s. 9). Users cannot see whether their data is protected, so the risk falls entirely on them.
