@@ -1,11 +1,11 @@
-## Ethical Review of ReMeal
+# Ethical Review of ReMeal
 \
 An evidence-based review of the Malaysian surplus-food platform\
 Module: COMP3041 Professional Ethics\
 Module Convenor: Dr. Nabil El Ioini\
 Group: I\
-\
-# Group Members
+
+## Group Members
 
 |         Name        | Student ID |
 | ------------------- | ---------- |
@@ -13,16 +13,16 @@ Group: I\
 | Eunice Ying Yun Lee |  20613250  |
 |   Avinash Lakhwani  |  20690297  |
 |   Tian Cheng Song   |  20595032  |
-|      Yuze Jiang     |  20593889  |
+|      Yuze Jiang     |  20593889  |\
 
 
-# Introduction
+## Introduction
 
 Our group has selected ReMeal, a Malaysian platform that connects consumers with businesses selling surplus food at discounted prices. Listings can be individual items or optional Mystery Bags, available for pickup, dine-in or delivery. We chose ReMeal because its model must balance food affordability against customer welfare and vendor interests, which gives our review clear scope for reasoned ethical judgement.
-ReMeal meets the requirement for a real, currently available system: it is listed on the Google Play Store and Apple App Store, so we could install it, register and examine its functions directly, and its Privacy Notice, seller guidance and Terms and Conditions are publicly accessible. Because it serves only Malaysian food businesses and consumers, it is a small, local platform, and its specialised surplus-food service provides a manageable setting for examining ethical issues in Malaysia's food service sector.
+ReMeal meets the requirement for a real, currently available system: it is listed on the Google Play Store and Apple App Store, so we could install it, register and examine its functions directly, and its Privacy Notice, seller guidance and Terms and Conditions are publicly accessible. Because it serves only Malaysian food businesses and consumers, it is a small, local platform, and its specialised surplus-food service provides a manageable setting for examining ethical issues in Malaysia's food service sector.\
 
 
-# Findings
+## Findings
 
 We investigated ReMeal using complementary methods: (1) a hands-on walkthrough of the mobile app, browsing vendor listings and Mystery Bags and examining the ordering and cancellation flow; (2) a close reading of its Terms and Conditions and Privacy Notice; (3) an audit of Google Play data-safety declaration; and (4) a review of its seller onboarding and pricing pages. Each finding below links a feature we observed to the relevant clause in ReMeal's own documents.
 
@@ -42,10 +42,10 @@ ReMeal charges vendors only charges fees on each sale (ReMeal, n.d.). This means
 
 5. Data Protection\
 ReMeal's Google Play data-safety label indicates that user data is not encrypted in transit, meaning information sent between user and server could be intercepted. This exposes a substantial amount of personal data, as the app requires location access and collects names, phone numbers, order history and device identifiers (ReMeal, 2024b, §1). Rather than protecting the data, the Privacy Notice states that any transmission “remains at your own risk”.
-Encryption in transit is a basic, low-cost safeguard, and Malaysia's Personal Data Protection Act 2010 requires organisations to take practical steps to protect personal data (Personal Data Protection Act 2010, s.9). Users cannot see whether their data is protected, so the risk falls entirely on them.
+Encryption in transit is a basic, low-cost safeguard, and Malaysia's Personal Data Protection Act 2010 requires organisations to take practical steps to protect personal data (Personal Data Protection Act 2010, s.9). Users cannot see whether their data is protected, so the risk falls entirely on them.\
 
 
-# Literature Review
+## Literature Review
 
 1. Food Information and Safety\
 EU law requires allergen information to be available before a food order is completed online (European Commission, n.d.), while Malaysian rules still centre on physical labels (Baker McKenzie, n.d.). This assumes shoppers will read the contents of a package, which fails for mystery bags. Passing questions to vendors does not fix this: a BBC Panorama investigation found JustEat customers were left to ask restaurants about allergens, and some received wrong answers (Institute of Customer Service, 2019). Beyond allergens, EFSA (2018) identifies temperature control and hygiene as the main risks for surplus food. A South African study found that heat and weak cold chains caused spoilage in donated food (Sustainability, 2025). Sources differ on the stakeholder responsible for managing this risk. UK research argues that platforms should act as gatekeepers by setting hygiene requirements for vendors (Food Safety News, 2022), while a Malaysian study found that platforms leave food safety to regulators (Journal of Tourism, Hospitality and Culinary Arts, 2024). ReMeal's limited vetting is therefore local, although stronger vetting may be more practical in this setting.
@@ -57,10 +57,10 @@ Busch (2021) argues that platforms which control payment and set contract terms 
 Whether surplus apps reduce waste depends on what is measured. Yang and Yu (2025) modelled surprise bags and found that they can increase total waste: retailers may overproduce, and customers who would have paid full price instead buy discounted bags and discard what they cannot use. A conference study of Too Good To Go users points the same way, finding that people throw away surprise-bag food they dislike (Zhang, van Herpen and Van Loo, n.d.). Papargyropoulou et al. (2014) rank prevents surplus above redistributing it. By that standard, an app that counts food sold rather than food eaten may simply be moving waste from the shop to the home.
 
 4. Data Protection\
-De Montjoye et al. (2013) concluded that removing names from location data offers little protection, and Berke et al. (2025) found that Amazon purchase histories can reveal sensitive traits such as health conditions. Location combined with food orders is a similarly revealing mix, since it can show where someone lives and what they eat, which makes the absence of encryption more serious than it first appears. Malaysia's 2024 amendments raise the maximum penalty for breaching the data protection principles (Baker McKenzie, 2025), but penalties are corrective rather than preventive, and consent-based protection is weak when people do not read the terms (Obar and Oeldorf-Hirsch, 2018). Encryption, by contrast, protects users whether or not they read anything.
+De Montjoye et al. (2013) concluded that removing names from location data offers little protection, and Berke et al. (2025) found that Amazon purchase histories can reveal sensitive traits such as health conditions. Location combined with food orders is a similarly revealing mix, since it can show where someone lives and what they eat, which makes the absence of encryption more serious than it first appears. Malaysia's 2024 amendments raise the maximum penalty for breaching the data protection principles (Baker McKenzie, 2025), but penalties are corrective rather than preventive, and consent-based protection is weak when people do not read the terms (Obar and Oeldorf-Hirsch, 2018). Encryption, by contrast, protects users whether or not they read anything.\
 
 
-# Ethical Framework
+## Ethical Framework
 
 This review uses the Software Engineering Code of Ethics and Professional Practice (ACM/IEEE-CS, 1999), the SE Code, alongside two ethical theories. 
 
@@ -73,15 +73,15 @@ Utilitarianism judges actions by their results, favouring the option that produc
 Clause 1.06 applies to ReMeal's sustainability claims, since counting every bag sold as food saved could mislead the public if total waste rises.However, the theory is most needed for waste (see 4.3). Since ReMeal earns a fee on each sale, vendors may overproduce and users may overbuy, adding to pollution and production costs. Utilitarianism therefore supports measures such as purchase reminders or fees tied to waste prevention, an approach that also fits Malaysian cultural values against food waste. For data protection, it underlines the seriousness of the risk: missing encryption exposes every user at once, and a breach would cost far more than the fix. Here the Code already answers clearly through clauses 3.12 and 1.03, so the theory mainly confirms the urgency.
 
 3. Where the SE Code Is Insufficient\
-We expect the SE Code to be insufficient for two issues. First, the refund policy is set by ReMeal’s management and legal team, so the decision lies outside the engineer’s control. The Code governs engineers’ own work (clause 1.01) and the software they approve (clause 1.03), so it cannot judge whether the policy itself is fair. Deontology is needed here because Kant’s universalisability test evaluates the rule directly: a rule allowing platforms to refuse refunds at will could not be universalised without destroying trust in online shopping. Second, whether ReMeal increases total waste depends on vendors’ production and users’ buying decisions, on which the Code is silent. Utilitarianism is needed because it judges the platform by its overall outcome and total waste to justify changes such as fees tied to waste prevention.
+We expect the SE Code to be insufficient for two issues. First, the refund policy is set by ReMeal’s management and legal team, so the decision lies outside the engineer’s control. The Code governs engineers’ own work (clause 1.01) and the software they approve (clause 1.03), so it cannot judge whether the policy itself is fair. Deontology is needed here because Kant’s universalisability test evaluates the rule directly: a rule allowing platforms to refuse refunds at will could not be universalised without destroying trust in online shopping. Second, whether ReMeal increases total waste depends on vendors’ production and users’ buying decisions, on which the Code is silent. Utilitarianism is needed because it judges the platform by its overall outcome and total waste to justify changes such as fees tied to waste prevention.\
 
 
-# Further Planning
+## Further Planning
 
-Part 2 will complete this review in three steps. First, we will deepen our first hand evidence through a systematic, coded analysis of all online store reviews, a price check comparing ReMeal's listed prices with vendors' in-store prices and a permissions and tracker audit using Exodus Privacy. Second, we will re-check ReMeal's Terms, Privacy Notice and data-safety label for changes, recording any differences as evidence. Third, we will apply the SE Code clauses and both theories to each issue in full, examining where deontology and utilitarianism agree or conflict, and use this analysis to propose feasible recommendations: an allergen field, fair refund rules, basic vendor hygiene checks and encryption in transit. Throughout, we will act on the feedback received on Part 1.
+Part 2 will complete this review in three steps. First, we will deepen our first hand evidence through a systematic, coded analysis of all online store reviews, a price check comparing ReMeal's listed prices with vendors' in-store prices and a permissions and tracker audit using Exodus Privacy. Second, we will re-check ReMeal's Terms, Privacy Notice and data-safety label for changes, recording any differences as evidence. Third, we will apply the SE Code clauses and both theories to each issue in full, examining where deontology and utilitarianism agree or conflict, and use this analysis to propose feasible recommendations: an allergen field, fair refund rules, basic vendor hygiene checks and encryption in transit. Throughout, we will act on the feedback received on Part 1.\
 
 
-# References
+## References
 
 - ACM/IEEE-CS (1999) Software Engineering Code of Ethics and Professional Practice (Version 5.2). Available at: https://ethics.acm.org/code-of-ethics/software-engineering-code/ (Accessed: [date]).
 - Baker McKenzie (2025) Malaysia: Personal Data Protection (Amendment) Act 2024 to come into force. Baker McKenzie InsightPlus. Available at: [URL] (Accessed: [date]).
