@@ -20,7 +20,7 @@ Word count (excluding title page, tables, figures, references and appendices)
 
 | Section | Owner | Target words | Commit history  | Status |
 | ----- | ----- | ----- | ----- | ----- |
-| 1\. Introduction | \[name\] | 300 |  | Not started |
+| 1\. Introduction | \[tooba\] | 300 |  | started |
 | 2\. Stakeholders | \[name\] | 600 |  | Not started |
 | 3\. SE Code analysis | \[name, name\] | 1,100 |  | Not started |
 | 4\. Ethical theories | \[name\] | 800 |  | Not started |
@@ -32,6 +32,11 @@ Word count (excluding title page, tables, figures, references and appendices)
 **Internal deadlines:**  
 
 ## **1\. Introduction**
+ReMeal is a Malaysian food-tech platform, operated by ReMeal Sdn Bhd in Kuala Lumpur, that allows cafés, bakeries, hotels and supermarkets to sell their unsold surplus food at a discount. Through its mobile app, available on Google Play and the Apple App Store, consumers can buy individual items or “Mystery Bags” of unspecified contents, then collect them in store, dine in, or arrange delivery through partners such as Grab, pandago and Lalamove (ReMeal, n.d.). The platform serves two groups: price-conscious consumers looking for cheaper meals and food vendors seeking to recover revenue from food that would otherwise be thrown away.
+ReMeal is significant because it applies a business model popularised internationally by apps such as Too Good To Go to the Malaysian market, where food waste is a recognised national concern. Its relevance extends beyond its users: in 2025, the Ministry of Domestic Trade and Cost of Living used ReMeal to record food saved at Ramadan bazaars under its MYSaveFood programme (Bernama, 2025). Because a surplus-food platform must balance affordability, sustainability, food safety and commercial interests, it raises ethical questions that go beyond whether the software works.
+In Part 1, we identified four ethical issues through a hands-on investigation of the app and its Terms and Conditions, Privacy Policy and data-safety declaration: missing allergen information, a one-sided refund policy, limited accountability for food quality, and personal data that is not encrypted in transit. This report develops that review with new evidence, including a coded analysis of app store reviews, a price comparison, a privacy and tracker audit, and a re-examination of ReMeal’s published policies.
+The report first identifies the stakeholders affected by the platform, then evaluates each issue against the ACM/IEEE Software Engineering Code of Ethics. It then applies utilitarianism and deontology to a dilemma the Code cannot resolve, reflects critically on the two approaches, and concludes with recommendations for improving ReMeal’s ethical standing.
+
 
 ## **2\. Stakeholders**
 
