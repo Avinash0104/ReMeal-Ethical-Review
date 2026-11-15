@@ -114,6 +114,7 @@ The report first identifies the stakeholders affected by the platform, then eval
 *Suggested dilemma: the Mystery Bag model. The surprise element sells surplus that would otherwise be thrown away, serving the employer and the waste goal. But it makes allergen disclosure impossible, against clauses 1.03 and 1.04. Clause 1.02 says to balance these interests without saying how. The bag model is also a business decision outside the engineer's control. Agree on the dilemma as a team before writing.*
 
 \[Write here: state the dilemma, the clauses in tension, and why the Code gives no answer.\]
+Clauses in tension, vendors may supply incomplete data, and auditing costs exceed low profit margins.
 
 ### **4.2 Utilitarian analysis**
 
