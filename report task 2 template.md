@@ -111,13 +111,13 @@ Clauses in tension, vendors may supply incomplete data, and auditing costs excee
 ### **4.2 Utilitarian analysis**
 
 *Weigh the outcomes using our evidence: food rescued and money saved against allergic-reaction risk, food discarded at home (Zhang et al.; Yang and Yu, 2025), and what the coded reviews show.*
-
+A major branch of Consequentialism. The morality of an action is determined solely by its outcomes or consequences; max net utility
 \[Write here\]
 
 ### **4.3 Deontological analysis**
 
 *Apply duty and informed consent to the same dilemma: can a buyer consent to a bag they can't see? Apply the universalisability test to ReMeal's rule.*
-
+The morality of an action is based on whether it follows a set of rules or duties
 \[Write here\]
 
 ### **4.4 Comparing the conclusions**
