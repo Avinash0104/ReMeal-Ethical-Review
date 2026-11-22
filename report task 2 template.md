@@ -21,8 +21,8 @@ Word count (excluding title page, tables, figures, references and appendices)
 | Section | Owner | Target words | Commit history  | Status |
 | ----- | ----- | ----- | ----- | ----- |
 | 1\. Introduction | \[tooba\] | 300 |  | started |
-| 2\. Stakeholders | \[name\] | 600 |  | Not started |
-| 3\. SE Code analysis | \[name, name\] | 1,100 |  | Not started |
+| 2\. Stakeholders | \[avinash\] | 600 |  | Not started |
+| 3\. SE Code analysis | \[avinash, name\] | 1,100 |  | Not started |
 | 4\. Ethical theories | \[name\] | 800 |  | Not started |
 | 5\. Critical reflection | \[name\] | 400 |  | Not started |
 | 6\. Recommendations | \[name\] | 400 |  | Not started |
@@ -44,20 +44,12 @@ The report first identifies the stakeholders affected by the platform, then eval
 
 *The top band wants indirect stakeholders included and every effect backed by evidence. Fill the table first, then write a short paragraph on the stakeholders most affected.*
 
-| Stakeholder | Type | Feature or practice that affects them | How it affects them | Evidence |
-| ----- | ----- | ----- | ----- | ----- |
-| Buyers with allergies or halal needs | Direct | No allergen field; Mystery Bags | \[effect\] | \[E\#, Terms §5.3\] |
-| General buyers | Direct | Refund policy; 20-minute hold | \[effect\] | \[E\#, Terms §5.7–5.8, §7.2\] |
-| Vendors (cafes, bakeries, hotels) | Direct (partners) | Per-sale fee; Google Maps listing requirement | \[effect\] | \[pricing page, seller FAQ\] |
-| ReMeal Sdn Bhd | Direct (operator) | Fee on every sale; liability disclaimers | \[effect\] | \[Terms §9.2–9.3\] |
-| ReMeal's developers | Direct | Decisions on data encryption and listing fields | \[effect\] | \[Play data-safety label\] |
-| Delivery riders (Grab, pandago, Lalamove) | Direct (workers) | Delivery of time-sensitive surplus food | \[effect\] | \[evidence\] |
-| Full-price customers and competing shops | Indirect | Discounted bags replacing full-price sales | \[effect\] | \[Yang and Yu, 2025\] |
-| Food banks and charities | Indirect | Surplus sold instead of donated | \[effect\] | \[evidence\] |
-| Government (KPDN, MYSaveFood) | Indirect | Use of ReMeal's data on food saved | \[effect\] | \[Bernama, 2025\] |
-| Environment and local community | Indirect | Possible overproduction or household waste | \[effect\] | \[Zhang et al.; review data\] |
+ReMeal's stakeholders fall into two groups: those who use or run the platform directly, and those who never open the app but are still affected by it. Buyers with allergies or halal needs carry the most risk, because the app gives them no reliable way to know what they are eating. Mystery Bag listings consistently omit allergen and halal information (E18–E24), and even regular listings may not list ingredients (E12–E13). This risk is made worse by checkout, which automatically substitutes an alternative item when the chosen one is unavailable (E15, E26–E31), so even a buyer who selects carefully may receive something different. General buyers benefit from cheaper meals, but they carry the financial risk when an order goes wrong. The refund rules are never shown before payment (E16), and users accept the Terms without actively agreeing to them (E03). Conflicting pickup times at checkout (E15, E25) make missed collections more likely, and under s5.8 and s7.2 of the Terms, a buyer who misses pickup loses both the food and the money.
+Vendors such as cafés, bakeries and hotels gain revenue from food they would otherwise throw away, but pay a fee on every sale, and joining requires only a Google Maps listing rather than a hygiene certificate (ReMeal, n.d.). This makes signing up easy, but honest vendors share a marketplace with unvetted ones, and the Terms leave responsibility for food quality with vendors (§9.2–9.3). ReMeal Sdn Bhd, as the operator, earns on every transaction while its disclaimers shift risk onto vendors and buyers. Its income grows with the amount of food sold, not the waste actually prevented, which is where its interests most clearly conflict with buyers' safety.
+ReMeal's developers are direct stakeholders because many of the issues come from their design decisions: precise location is on by default (E06), location and purchase history are linked to identity (E02), there is no delete-account option (E07), and the Play Store data-safety label states that data is not encrypted in transit. Developers may also be blamed for failings decided by management, such as the refund rules, so their professional standing is at stake. Delivery riders from Grab, pandago and Lalamove carry time-sensitive surplus food (ReMeal, n.d.). Since EFSA (2018) identifies time and temperature as the main hazards for surplus food, delays could make riders part of a food safety failure they cannot control, although we have not yet gathered direct evidence of their experience.
+Among indirect stakeholders, full-price customers and competing shops may lose out if discounted bags replace normal sales, as Yang and Yu (2025) found that surprise bags can lead retailers to overproduce and draw away customers who would have paid full price. Food banks and charities may receive less surplus if vendors prefer to sell it, though we have no direct evidence of this in Malaysia yet. The government is affected because the Ministry of Domestic Trade and Cost of Living used ReMeal to record food saved under MYSaveFood (Bernama, 2025), so any flaws in ReMeal's data feed into public figures. Finally, the environment and local community benefit only if the food is actually eaten. Zhang et al. (n.d.) found that people throw away surprise-bag food they dislike, yet the bag still counts as food saved.
+Overall, buyers, especially those with allergies, carry the most risk, while ReMeal and vendors gain the most, and the main conflict lies between ReMeal's per-sale revenue and buyers' safety and fair treatment.
 
-\[Write the paragraph here: which stakeholders carry the most risk, which benefit, and where their interests conflict, for example ReMeal's revenue against buyers' safety.\]
 
 ## **3\. Analysis of Ethical Issues Using the SE Code**
 
