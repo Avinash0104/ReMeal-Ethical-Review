@@ -103,10 +103,7 @@ Overall, buyers, especially those with allergies, carry the most risk, while ReM
 
 ### **4.1 The dilemma the SE Code cannot resolve**
 
-*Suggested dilemma: the Mystery Bag model. The surprise element sells surplus that would otherwise be thrown away, serving the employer and the waste goal. But it makes allergen disclosure impossible, against clauses 1.03 and 1.04. Clause 1.02 says to balance these interests without saying how. The bag model is also a business decision outside the engineer's control. Agree on the dilemma as a team before writing.*
-
-\[Write here: state the dilemma, the clauses in tension, and why the Code gives no answer.\]
-Clauses in tension, vendors may supply incomplete data, and auditing costs exceed low profit margins.
+The SE code provides professional principles for SE engineers, but it does not offer solutions to every ethical dilemma faced by ReMeal. The Mystery Bag model is the dilemma that cannot be solved by SE code. The element of surprise box encourages customers to purchase surplus food that might be otherwise discarded, which serves the employer and the waste goal. However, this model makes the allergen and specific food information disclosure impossible. Among 38 Mystery Bag listings we examined, none of them showed allergen or halal information (E18-E24). This places Clause 1.03 and Clause 1.04 in tension with the objective of making surplus food accessible and reducing waste. Although Clause 1.02 requires engineers to balance competing interests, it does not specify how to balance environmental and economic benefits against the potential health risks faced by consumers with food allergies. The Mystery bag model is also a business decision made by ReMeal’s management outside the engineer’s control, limiting the engineer’s authority to change the underlying business model.
 
 ### **4.2 Utilitarian analysis**
 
