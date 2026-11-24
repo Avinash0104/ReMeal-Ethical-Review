@@ -1,0 +1,48 @@
+## **3\. Analysis of Ethical Issues Using the SE Code**
+
+### This section evaluates ReMeal against the Software Engineering Code of Ethics and Professional Practice (ACM/IEEE-CS, 1999), using the evidence collected on 14 November 2026 (Appendix A). Each issue follows a Claim, Evidence, Reasoning, Counterpoint structure. The table below summarises our verdict for each clause.
+
+#### **Clause verdicts at a glance**
+
+| Issue | Clause | Verdict | Key evidence |
+| ----- | ----- | ----- | ----- |
+| Allergens | 1.03: Approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good. | Breaks | E12, E13, E15 |
+| Allergens | 1.04: Disclose to appropriate persons or authorities any actual or potential danger to the user, the public, or the environment, that they reasonably believe to be associated with software or related documents. | Partly meets | E09, E16; Terms §5.3 |
+| Refunds | 1.06: Be fair and avoid deception in all statements, particularly public ones, concerning software or related documents, methods and tools. | Partly meets | E03, E16 |
+| Refunds | 1.02: Moderate the interests of the software engineer, the employer, the client and the users with the public good. | Breaks | E15, E16; Terms §5.8, §7.2 |
+| Food quality | 6.07: Be accurate in stating the characteristics of software on which they work, avoiding not only false claims but also claims that might reasonably be supposed to be speculative, vacuous, deceptive, misleading, or doubtful. | Partly meets | E13, E16 |
+| Food quality | 3.14: Maintain the integrity of data, being sensitive to outdated or flawed occurrences. | Partly meets | E15 |
+| Data protection | 3.12:  Work to develop software and related documents that respect the privacy of those who will be affected by that software. | Partly meets | E02, E05, E06, E08, E11 |
+| Data protection | 3.13: Be careful to use only accurate data derived by ethical and lawful means, and use it only in ways properly authorized. | Breaks | E07, E08, E11 |
+| Where ReMeal does well | 1.07: Consider issues of physical disabilities, allocation of resources, economic disadvantage and other factors that can diminish access to the benefits of software. | Meets | E03 (English/Malay toggle, guest mode) |
+| Where ReMeal does well | 1.03: Approve software only if they have a well-founded belief that it is safe, meets specifications, passes appropriate tests, and does not diminish quality of life, diminish privacy or harm the environment. The ultimate effect of the work should be to the public good. | Meets in intent, impact unverified | E07 (CO2e counter) |
+
+### 
+
+### **3.1 Allergens and ingredient information**
+
+* **Claim:** ReMeal breaks clause 1.03 and only partly meets clause 1.04, because its ordering flow sells food without allergen information and gives users no practical way to find it before paying.  
+* **Evidence:** A census of every listing in the Mystery Bags category on 16 November 2026 (n \= 38, 10 vendors) found that none displayed allergen or halal information, and 10 gave no indication of contents at all (Appendix E; E18–E24). At checkout, the out-of-stock setting defaulted to “Replace with alternative if available” in all six orders tested, and the only route for dietary needs was a free-text “Notes to Seller” box (E15, E26–E31).  
+* **Reasoning:** Which fields a listing contains, and what checkout defaults to, are engineering decisions. A system that sells food, sometimes unseen, without an allergen field cannot be “safe” for allergic users in the sense clause 1.03 requires. The default substitution makes this worse: even a buyer who checked a specific item may receive a different one. Clause 1.04 is only partly met, because the danger is disclosed in the Terms and Privacy Policy rather than at the point of purchase, where users actually decide. The Privacy Policy shows ReMeal is aware that allergies matter, which makes their absence from the interface harder to justify.  
+* **Counterpoint:** ReMeal could argue that vendors, not the platform, know the ingredients, and that the “Notes to Seller” box (E16) lets buyers raise allergies. For Mystery Bags, contents are unknown until packing. However, a free-text note gives no guarantee of a reply before pickup, and the BBC Panorama investigation into Just Eat showed that leaving allergen questions to restaurants produced wrong answers (Institute of Customer Service, 2019). A mandatory allergen field for vendors, or a “may contain common allergens” label on every Mystery Bag, would be feasible.
+
+### **3.2 Refunds and cancellation**
+
+* **Claim:** ReMeal partly meets clause 1.06 and breaks clause 1.02. Its refund rules are published, but they are hidden from users at the moment of payment, and they place almost all the risk of failure on buyers.   
+* **Evidence:** Users agree to the Terms through a line of text with no checkbox (E03). At checkout, no refund or cancellation policy and no link to the Terms is shown before payment (E16). Checkout also displays conflicting collection windows: the store’s 06:30–23:00 against the item’s 13:30–14:30 (E15). A buyer relying on the wider window could miss pickup, and under §5.8 and §7.2 of the Terms would receive no refund. The checkout for one item stated a collection window of 06:30–23:00 while simultaneously reporting “Sorry, no collection times available” (E25), so the buyer is shown contradictory information about when the purchase can be redeemed.  
+* **Reasoning:** Clause 1.06 is partly met because the rules are not false: they exist in the Terms. But consent by a line of text is weak when users spend only seconds on terms that take far longer to read (Obar and Oeldorf-Hirsch, 2018). The conflicting pickup windows are misleading in practice. A buyer who trusts “collect between 06:30 and 23:00” could arrive after 14:30, find nothing, and be refused a refund. Clause 1.02 is broken because the balance falls entirely on one side: ReMeal and the vendor keep the payment whatever happens, while the buyer absorbs every failure.  
+* **Counterpoint:** Surplus food is perishable and cannot be resold, so strict refund rules protect small vendors from losses. This is a fair business concern. However, it justifies limits on refunds for buyers who simply change their minds, not for failures the app itself causes, such as contradictory pickup times. Showing the refund rules on the checkout screen would cost almost nothing.
+
+### **3.3 Food quality and vendor accountability**
+
+* **Claim:** ReMeal partly meets clauses 6.07 and 3.14. Some listing information is accurate and useful, but the platform takes no responsibility for whether listings and timings are correct.  
+* **Evidence:** The listing included vendor guidance to “consume within 2 hours and discard after 4 hours” (E13), but no hygiene rating or licence information (E12–E13).  
+* **Reasoning:** The storage guidance shows that accurate, safety-relevant information can be displayed, which is why we rate clause 6.07 as partly met rather than broken. However, savings figures based on unverifiable prices risk being “misleading”, which clause 6.07 warns against. Clause 3.14 asks engineers to be “sensitive to outdated or flawed” data. Displaying two incompatible time windows on the same screen shows the system does not validate vendor data before showing it to users. For surplus food near the end of its shelf life, inaccurate timing is a food safety issue, as EFSA (2018) identifies temperature control and time as the main hazards.  
+* **Counterpoint:** ReMeal cannot inspect every vendor’s kitchen, and its vendors include established hotels with their own food safety obligations. However, the platform decides what vendors must provide when they join, and a simple check that an item’s time window falls within the store’s collection hours is a basic validation step.
+
+### **3.4 Data protection**
+
+* **Claim:** ReMeal partly meets clause 3.12 and breaks clause 3.13. Its location handling is reasonable, but its Privacy Policy authorises collecting and sharing far more data than a food ordering app needs.  
+* **Evidence:** The App Store label links precise location, purchase history and user and device IDs to the user’s identity (E02). The Privacy Policy permits collecting selfies, income and IMEI numbers (E08), and sharing data with credit bureaus, background-check providers and advertisers (E11). Phone verification is required before ordering (E14), and no delete-account option is visible in the Account page (E07). On the positive side, the app explains its location request and offers a manual map alternative (E05–E06).  
+* **Reasoning:** Clause 3.12 is partly met: the location prompt states its purpose, offers “Allow Once”, and the map option lets users avoid sharing GPS data. Clause 3.13, however, requires data to be used “only in ways properly authorized”. A buyer ordering discounted food has no reasonable expectation that their data might reach credit bureaus or background-check providers, and a privacy policy that permits this does not make it proportionate. Location combined with purchase history is highly identifying (de Montjoye et al., 2013), and without an in-app deletion option, users cannot easily withdraw.  
+* **Counterpoint:** Much of the collection is standard for payment processing and fraud prevention, and the broad wording may come from a generic template rather than actual practice. But the policy is what users agree to, so ReMeal is accountable for what it permits, whether or not it currently uses those permissions.
